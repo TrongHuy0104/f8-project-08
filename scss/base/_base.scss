@@ -22,9 +22,8 @@ a {
 }
 
 button {
-    border: none;
-    outline: none;
     background-color: transparent;
+    outline: none;
     padding: 0;
     cursor: pointer;
 }
@@ -38,7 +37,13 @@ select {
     font-size: inherit;
     font-family: inherit;
     color: inherit;
+    outline: none;
+    border: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    background: transparent;
 }
 
 .icon {

@@ -31,6 +31,7 @@
     &__logo {
         @include abstracts.screen(lg) {
             margin-left: 40px;
+            column-gap: 10px;
         }
 
         @include abstracts.screen(md) {
@@ -39,6 +40,18 @@
             left: 50%;
             transform: translate(-50%, -50%);
             margin-left: 0;
+        }
+
+        &-img {
+            @include abstracts.screen(lg) {
+                width: 24px;
+            }
+        }
+
+        &-title {
+            @include abstracts.screen(lg) {
+                font-size: 1.8rem;
+            }
         }
     }
 }

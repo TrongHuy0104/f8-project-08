@@ -1,6 +1,7 @@
 @use "../abstracts";
 
 .home {
+    margin-bottom: 50px;
     &__container {
         margin-top: 40px;
 
@@ -25,6 +26,10 @@
         font-size: 2.4rem;
         font-weight: 700;
         line-height: 141.667%;
+
+        @include abstracts.screen(sm) {
+            font-size: 1.8rem;
+        }
     }
 
     &__row {
