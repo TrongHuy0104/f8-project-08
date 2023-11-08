@@ -32,6 +32,10 @@
         line-height: 142.857%;
         min-width: var(--width, 108px);
         cursor: pointer;
+
+        @include abstracts.screen(lg) {
+            flex: 1;
+        }
     }
 
     &__select + &__select {
@@ -76,6 +80,7 @@
         &--inline {
             display: flex;
             align-items: center;
+            font-size: 1.5rem;
         }
 
         @include abstracts.screen(md) {

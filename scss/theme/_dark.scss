@@ -52,9 +52,16 @@ html.dark {
     --form-tag-color: #171c28;
 
     // Auth
-
     --auth-intro-bg: #171c28;
     --auth-content-bg: #292e39;
     --auth-intro-text-color: #b9babe;
     --auth-heading-color: #b9babe;
+
+    // Product Detail
+    --product-detail-bg: #292e39;
+    --product-info-bg: #171c28;
+    --prod-info-tag-bg: #292e39;
+    // Breadcrumbs
+    --breadcrumbs-bg: #171c28;
+    --breadcrumbs-shadow: rgba(23, 28, 40, 0.2);
 }

@@ -60,4 +60,22 @@ html {
     --auth-content-bg: #fff;
     --auth-intro-text-color: #1a162e;
     --auth-heading-color: #1a162e;
+
+    // Product Detail
+    --product-detail-bg: #fff;
+    --product-info-bg: #f6f6f6;
+    --prod-info-tag-bg: #ededf6;
+
+    @include abstracts.screen(md) {
+        --product-detail-bg: #fafafd;
+        --product-info-bg: #fff;
+    }
+
+    // Breadcrumbs
+    --breadcrumbs-bg: #f6f6f6;
+    --breadcrumbs-shadow: rgba(237, 237, 246, 0.2);
+
+    @include abstracts.screen(md) {
+        --breadcrumbs-bg: #fff;
+    }
 }
